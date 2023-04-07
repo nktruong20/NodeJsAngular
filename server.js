@@ -38,7 +38,7 @@ require('./routes/favorite')(server);
 // chia router
 // require('./routes/admin')(server);
 
-require('./routes/tour')(server);
+require('./routes/product')(server);
 
 server.listen(3000, function() {
     console.log('Server listening on port  http://localhost:3000');
